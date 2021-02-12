@@ -169,6 +169,10 @@ void FUNC(tail_swap)(VAR *array, unsigned char nmemb, CMPFUNC *cmp)
 		{
 			pts[cnt++] = pta[i++];
 		}
+		while (mid < 8)
+		{
+			pts[cnt++] = pta[mid++];
+		}
 	}
 
 	i = 0;
